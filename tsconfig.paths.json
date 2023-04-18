@@ -5,7 +5,10 @@
       "*": ["*"],
       "src/*": ["*"],
       "pages/*": ["src/pages/*"],
-      "components/*": ["src/components/*"]
+      "components/*": ["src/components/*"],
+      "contexts/*": ["src/contexts/*"],
+      "interfaces/*": ["src/interfaces/*"],
+      "theme/*": ["src/theme/*"]
     }
   }
 }
