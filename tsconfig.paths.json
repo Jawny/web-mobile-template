@@ -4,10 +4,11 @@
     "paths": {
       "*": ["*"],
       "src/*": ["*"],
-      "pages/*": ["src/pages/*"],
       "components/*": ["src/components/*"],
+      "configs/*": ["src/configs/*"],
       "contexts/*": ["src/contexts/*"],
       "interfaces/*": ["src/interfaces/*"],
+      "pages/*": ["src/pages/*"],
       "theme/*": ["src/theme/*"]
     }
   }

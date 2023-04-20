@@ -1,8 +1,16 @@
-import React, { createContext, useEffect, useState, ReactNode } from "react";
+import React, {
+  createContext,
+  useEffect,
+  useState,
+  ReactNode,
+  useContext,
+} from "react";
 import { Capacitor } from "@capacitor/core";
 import { IDeviceInfo } from "interfaces";
 
 export const DeviceContext = createContext<IDeviceInfo | null>(null);
+
+export const useDeviceContext = () => useContext(DeviceContext);
 
 export const DeviceProvider: React.FC<{ children: ReactNode }> = ({
   children,
